@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1573296227 source:e:\c_projects\pic\vacuum_cleaner\main.c
+	<stdio.h>
+	<stdlib.h>
+	"OS.h"
+	"sysControl.h"
+
+1573596191 e:\c_projects\pic\vacuum_cleaner\os.h
+
+1573242444 e:\c_projects\pic\vacuum_cleaner\ssd.h
+
+1573597435 source:e:\c_projects\pic\vacuum_cleaner\motor.c
+	"motor.h"
+	"OS.h"
+	"GPIO.h"
+	"comparator.h"
+
+1573483894 e:\c_projects\pic\vacuum_cleaner\motor.h
+
+1573595989 source:e:\c_projects\pic\vacuum_cleaner\comparator.c
+	"comparator.h"
+	"GPIO.h"
+	"OS.h"
+
+1573598846 e:\c_projects\pic\vacuum_cleaner\comparator.h
+	<pic16f877a.h>
+
+1572552715 e:\c_projects\pic\vacuum_cleaner\gpio.h
+	<pic16f877a.h>
+
+1573481756 source:e:\c_projects\pic\vacuum_cleaner\led.c
+	"led.h"
+	"OS.h"
+	"GPIO.h"
+
+1573481505 e:\c_projects\pic\vacuum_cleaner\led.h
+
+1573252681 e:\c_projects\pic\vacuum_cleaner\syscontrol.h
+
+1573297503 source:e:\c_projects\pic\vacuum_cleaner\ssd.c
+	"OS.h"
+	"GPIO.h"
+	"ssd.h"
+
+1573296606 source:e:\c_projects\pic\vacuum_cleaner\switch.c
+	"OS.h"
+	"switch.h"
+	"GPIO.h"
+
+1573296564 e:\c_projects\pic\vacuum_cleaner\switch.h
+
+1573597852 source:e:\c_projects\pic\vacuum_cleaner\os.c
+	"OS.h"
+	"timer.h"
+	"ssd.h"
+	"switch.h"
+	"sysControl.h"
+	"comparator.h"
+	"motor.h"
+
+1573237089 e:\c_projects\pic\vacuum_cleaner\timer.h
+	<pic16f877a.h>
+
+1573596503 source:e:\c_projects\pic\vacuum_cleaner\syscontrol.c
+	"OS.h"
+	"sysControl.h"
+	"ssd.h"
+	"switch.h"
+	"comparator.h"
+	"motor.h"
+
